@@ -51,7 +51,7 @@ configure_bridge: true
 # Set to no prevent the installer from attempting
 # setup a LVM group for qubinode. Also set this to no
 # if you already have you storage for lvm setup
-create_lvm: yes
+create_lvm: no
 
 # used in playbook setup_kvmhost.yml
 network_interface_name: "{{ kvm_host_interface }}"
